@@ -13,6 +13,9 @@ rules = [
 # lines below are what you should modify
 #----------------------------------------
 
+[pages]
+publish_dir = "dist" # 根据你的项目结构调整 publish_dir
+
 [[routes]]
 # Refer to https://developers.cloudflare.com/workers/wrangler/configuration/#routes
 pattern = "tempfile.zhencheng.win"
